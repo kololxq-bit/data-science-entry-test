@@ -26,5 +26,5 @@ def swap(x, y):
 # - "Apple", 10
 # - 9, 17
 
-swap("Apple", 10)
-swap(9, 17)
+swap("Apple", 10)    # Should return -1 (non-numeric input)
+swap(9, 17)          # Should print swapped values: x = 17 , y = 9
