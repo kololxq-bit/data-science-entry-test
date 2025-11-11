@@ -10,7 +10,7 @@ def check_divisibility(num, divisor):
         return num % divisor == 0
     except:
         #return error if argument is not numeric
-        return str('not numeric')
+        return False
 
 # Task 2
 # Invoke the function "check_divisibility" using the following scenarios:
